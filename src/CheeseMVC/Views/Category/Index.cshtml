@@ -16,7 +16,7 @@ else
     <ul>
         @foreach (var category in Model)
         {
-            <li style="text-decoration: none;"><a asp-action="Category" asp-controller="Cheese" asp-route-id="@category.ID">@category.Name</a></li>
+            <li style="text-decoration: none;"><a asp-action="Category" asp-controller="Cheese" asp-route-id="@category.Name">@category.Name</a></li>
         }
     </ul>
 }
